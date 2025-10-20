@@ -20,7 +20,7 @@ namespace Program
     }
     class Program
     {
-        static ITelegramBotClient client = new TelegramBotClient("8475939762:AAHDN0E-dsD2BR_IBcmpIuv1z40ynMOYGc8");
+        static ITelegramBotClient client = new TelegramBotClient("Token");
         static async Task Main(string[] args)
         {
             LoadUsers();
